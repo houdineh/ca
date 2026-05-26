@@ -269,13 +269,13 @@ export default function Portfolio() {
     // Other shortcuts
     switch (e.code) {
       case 'KeyG':
-        window.open('https://github.com', '_blank')
+        window.open('https://github.com/houdineh/', '_blank')
         break
       case 'KeyD':
-        window.open('https://discord.com', '_blank')
+        window.open('https://discord.com/users/1338171592882262088', '_blank')
         break
       case 'KeyX':
-        window.open('https://x.com', '_blank')
+        window.open('https://x.com/chromheartss', '_blank')
         break
       case 'KeyT':
         cycleTint()
@@ -895,9 +895,9 @@ export default function Portfolio() {
           </h2>
           <div className="flex flex-wrap gap-4">
             {[
-              { name: 'Discord', href: 'https://discord.com' },
-              { name: 'GitHub', href: 'https://github.com' },
-              { name: 'X / Twitter', href: 'https://x.com' }
+              { name: 'Discord', href: 'https://discord.com/users/1338171592882262088' },
+              { name: 'GitHub', href: 'https://github.com/houdineh/' },
+              { name: 'X / Twitter', href: 'https://x.com/chromheartss' }
             ].map((link, i) => (
               <a 
                 key={i}
